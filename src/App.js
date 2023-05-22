@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Cart from "./components/Cart";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
+import HistoryOrder from "./components/HistoryOrder/history";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/cart">
               <Cart />
+            </Route>
+            <Route path="/history">
+              <HistoryOrder/>
             </Route>
           </Route>
         </Switch>
